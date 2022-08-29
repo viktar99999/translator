@@ -4,18 +4,18 @@ file = open('/home/user_name/contents.txt', 'r')
 content = file.read()
 print(content)
 s = content.split(' ')
-content_ru = ""
-content_en = ""
+ru = ""
+en = ""
 for k in content:
     if k == "а-яА-Я":
-        print(content_ru)
+        print(ru)
     else:
         k == "a-zA-Z"
-        print(content_en)
+        print(en)
 
 translator = Translator()
-result = translator.translate(content_ru, dest='en')
-result = translator.translate(content_en, dest='ru')
+result = translator.translate(content, dest='ru')
+result = translator.translate(content, dest='en')
 print(result.text)
 print(result.text)
 with open('/home/user_name/text.txt', 'w') as f:
