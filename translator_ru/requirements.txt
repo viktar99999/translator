@@ -9,5 +9,5 @@ httpcore==0.9.1
 httpx==0.13.3
 hyperframe==6.0.1
 idna==2.10
-rfc3986==1.5.0
+rfc3986==2.0.0
 sniffio==1.3.0
