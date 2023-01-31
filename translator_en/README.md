@@ -15,6 +15,7 @@ Python3 --version
 Check version pip:
 pip3 --version
 Others.
+Base:
 Install:
 pip3 install certifi
 pip3 install chardet
@@ -29,6 +30,10 @@ pip3 install hyperframe
 pip3 install idna
 pip3 install rfc3986
 pip3 install sniffio
+Upgrade:
+pip3 install --upgrade chardet
+pip3 install --upgrade hyperframe
+pip3 install --upgrade rfc
 Check install python-libs:
 command python3.8
 command python3.9
