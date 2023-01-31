@@ -50,3 +50,5 @@ import hyperframe
 import idna
 import rfc3986
 import sniffio
+Reliase:
+version==1.0
