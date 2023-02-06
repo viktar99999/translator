@@ -20,6 +20,7 @@ Install:
 pip3 install certifi
 pip3 install chardet
 pip3 install google-trans
+pip3 install googletrans==3.1.0a0
 pip3 install h11
 pip3 install h2
 pip3 install hpack
@@ -40,6 +41,7 @@ command python3.9
 import certifi
 import chardet
 import google_trans
+import googletrans
 import h11
 import h2
 import hpack
