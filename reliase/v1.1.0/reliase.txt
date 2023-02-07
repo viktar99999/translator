@@ -1,2 +1,2 @@
-v1.1.0
-translate from RU to EN
+version==1.1.0
+Translate from RU to EN
