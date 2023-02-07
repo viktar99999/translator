@@ -54,3 +54,4 @@ import rfc3986
 import sniffio
 Reliase:
 version==1.0
+version==1.1
