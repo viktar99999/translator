@@ -1,0 +1,2 @@
+version==1.1.2
+Add translator.py, in 2, 8 strings (encoding='utf-8')
