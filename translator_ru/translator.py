@@ -9,6 +9,10 @@ translator = Translator()
 result = translator.translate(content, dest='en')
 print(result.text)
 with open('/home/user_name/text.txt', 'w', encoding='utf-8') as f:
-    f.write(result.text)
-
-
+    for i in line_count:
+        if i < 303:
+            f.write(result.text)
+        elif i == 303:
+            f.write(result.text)
+        else:
+            print('Not text')
